@@ -1,0 +1,41 @@
+.bear_class {
+  width: 40px;
+  margin-right: 10px;
+}
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.toolbar div {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+a:hover div {
+  color: #ccc;
+}
+.w70 a,
+.toolsbutton {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.toolsbutton > div {
+  padding-right: 20px;
+}
+.w70 {
+  width: 70%;
+}
+.w30 {
+  width: 30%;
+}
+.toolbar a {
+  color: #fff;
+  text-decoration: none;
+}
+.toolbar a:hover {
+  color: blue;
+}

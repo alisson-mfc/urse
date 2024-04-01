@@ -1,0 +1,73 @@
+.box {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.bias {
+  width: 35px;
+  height: 35px;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.downgrade {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+.rotate_45 {
+  -webkit-transform: rotate(319deg);
+  padding-left: 54px;
+}
+.success.active {
+  background-color: green;
+  color: #fff;
+}
+
+.error.active {
+  background-color: red;
+  color: #fff;
+}
+
+.warning.active {
+  background-color: orange;
+  color: #fff;
+}
+
+.grade {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.grade_box {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.grade_box.green {
+  background-color: #8bc34a59;
+}
+.grade_box.moderate {
+  background-color: #ffc10763;
+}
+.grade_box.low {
+  background-color: #ff572273;
+}
+.grade_box h3,
+.grade_box h3 span {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}

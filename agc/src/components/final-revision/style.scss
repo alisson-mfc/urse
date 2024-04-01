@@ -1,0 +1,59 @@
+.inputBias {
+  width: 50px;
+}
+
+.success.active {
+  background-color: green;
+  color: #fff;
+}
+
+.error.active {
+  background-color: red;
+  color: #fff;
+}
+
+.warning.active {
+  background-color: orange;
+  color: #fff;
+}
+
+.grade {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.grade_box {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.grade_box.green {
+  background-color: #8bc34a59;
+}
+.grade_box.moderate {
+  background-color: #ffc10763;
+}
+.grade_box.low {
+  background-color: #ff572273;
+}
+.grade_box h3,
+.grade_box h3 span {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.btn_submit {
+  background: #0d47a1;
+  padding: 10px;
+  border-radius: 9px;
+  border: 1px solid #7986cb;
+  color: #fff;
+}
+.btn_submit:hover {
+  background: #2196f3;
+}
