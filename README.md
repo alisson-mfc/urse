@@ -1,4 +1,4 @@
-# URSE
+# URSE - Automated GRADE approach
 
 
 ## Instructions for Installation
